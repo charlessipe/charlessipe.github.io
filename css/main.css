@@ -1,6 +1,17 @@
 
 .home-banner {
-  color: red;
-  background-color: aqua;
-  height: 400px;
+  color: white;
+  height: 500px;
+  background-image: url("../img/seattle-unsplash.jpeg");
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  margin: 0;
+  position: relative;
 }
+
+.home-banner h2 {
+  position: absolute;
+  right: 50px;
+  top: 200px;
+}
+
