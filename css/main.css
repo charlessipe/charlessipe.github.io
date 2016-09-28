@@ -1,4 +1,13 @@
 
+.navbar-custom {
+  background-color: rgb(11, 20, 28);
+  height: 60px;
+}
+
+.navbar-custom ul li a {
+  color: white;
+}
+ 
 .home-banner {
   color: white;
   height: 500px;
@@ -23,4 +32,25 @@
 .main-button {
   background-color: rgb(26, 188, 156);
   border-color: rgb(26, 188, 156);
+}
+
+.circle {
+    display: block;
+    width: 140px;
+    height: 140px;
+    float: right;
+    margin: .25em auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 99em;
+    -moz-border-radius: 99em;
+    border-radius: 99em;
+    border: 5px solid #eee;
+    box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+.footer-custom {
+  background-color: rgb(11, 20, 28);
+  color: white;
 }
