@@ -12,21 +12,21 @@
 .navbar-custom ul li a {
   color: white;
 }
- 
+
 .home-banner {
   color: white;
-  height: 500px;
-  background-image: url("../img/seattle-unsplash.jpeg");
+  height: 300px;
+  background-image: url("https://s3.amazonaws.com/charles-sipe/header.jpg");
   background-repeat:no-repeat;
-  background-size: 100% 100%;
+  background-size: 100%;
   margin: 0;
   position: relative;
 }
 
-.home-banner h2 {
-  position: absolute;
-  right: 50px;
-  top: 200px;
+@media (max-width: 1000px){
+  .home-banner{
+    display: none;
+  }
 }
 
 .home-banner-2 {
