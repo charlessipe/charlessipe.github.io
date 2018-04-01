@@ -4,6 +4,11 @@
   border: 0px solid transparent;
 }
 
+
+.navbar-brand {
+  font-size: 35px;
+}
+
 .navbar-custom {
   background-color: rgb(11, 20, 28);
   height: 60px;
